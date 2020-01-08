@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+section.letters {
+  margin: 1em 0;
+}
+
+section.word {
+  letter-spacing: 0.5em;
+}
+
+section.letters a {
+  color: darkred;
+}
+
+.letters a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* 
+This class will grey out the letters as they are used. 
+Just add the class "used".
+*/
+section.letters a.used {
+  color: lightgray;
+}
+
+/* 
+Display the message when the game is over. 
+Hide it at the beginning. 
+*/
+p.win {
+  text-align: center;
+  font-size: 1rem;
+  display: none;
+}
